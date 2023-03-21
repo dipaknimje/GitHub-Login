@@ -12,8 +12,8 @@ h1{
     text-align: center;
     color: white;
     margin-top: 1rem;
-    width: 500px;
-    margin-left:150px;
+    width: 350px;
+    margin: auto;
     border: 1px solid pink;
     border-radius: 10px;
     background-image: radial-gradient(circle, #051937, #272a65, #5e348d, #55135a, #eb12b9)
@@ -23,17 +23,17 @@ h1{
 .Card{
     
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-    width: 300px;
-    height:400px;
+    width: 280px;
+    height:350px;
     border: 2px solid black;
     border-radius: 8px;
     box-shadow:rgba(1, 2, 3, 0.35) 0px 5px 35px;
-    margin-left: 1rem;
-    margin-top: 40px;
+    margin: 1rem 1.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: space-evenly;
+    text-align: center !important;
+    flex-wrap: wrap;
 }
 
 .User-img{
@@ -69,6 +69,7 @@ h1{
 .Card-Container{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
