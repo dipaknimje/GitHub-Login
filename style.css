@@ -13,7 +13,7 @@ h1{
     color: white;
     margin-top: 1rem;
     width: 500px;
-    margin-left: 280px;
+    margin-left:150px;
     border: 1px solid pink;
     border-radius: 10px;
     background-image: radial-gradient(circle, #051937, #272a65, #5e348d, #55135a, #eb12b9)
