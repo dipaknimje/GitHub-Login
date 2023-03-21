@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: radial-gradient(circle, #051937, #272a65, #5e348d, #a132aa, #eb12b9);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    width: 500px;
+    margin-left: 350px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    background-image: radial-gradient(circle, #051937, #272a65, #5e348d, #55135a, #eb12b9)
+
+}
+
+.Card{
+    
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    width: 300px;
+    height:400px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow:rgba(1, 2, 3, 0.35) 0px 5px 35px;
+    margin-left: 1rem;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.User-img{
+    border-radius: 100px;
+    width: 100px;
+    margin-left: 95px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button{
+    padding: 10px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    width: 100px;
+    margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+}
+
+.follow{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+
+.Card-Container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
